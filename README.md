@@ -10,7 +10,7 @@ Clone the git and download the `IMAGES.mat` file from Bruno's [homepage](http://
 
 You can run `sparsenet` directly, and it should be ok.
 
-Or you can the your  `.mex` file. Go to the nrf/subdirectory and type
+Or you can use mex to compile your file. Go to the nrf/subdirectory and type
 
 ~~~
 mex -v -I./ cgf.c frprmn.c linmin.c brent.c mnbrak.c nrutil.c
